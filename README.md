@@ -5,7 +5,7 @@ Une version personnellement codée du jeu de table *Ricochet Robots*, avec des p
 ## 🔧 Pouvoirs des robots (optionnels)
 
 - **🔵 Bleu** : peut se **téléporter de 4 cases orthogonalement** une fois par round.  
-- **⚪ Gris** : peut **passer à travers tous les murs**, sans restriction.  
+- **⚪ Gris** : **passe à travers tous les murs**, sans restriction.  
 - **🟡 Jaune** : peut **traverser un mur** par round.  
 - **🟢 Vert** : peut faire apparaître, **une fois par tour**, un **hologramme** dans n’importe quelle direction orthogonale, tant qu’il n’y a pas d’obstacle entre lui et l’emplacement choisi.  
   L’hologramme disparaît si Vert bouge ou si le pouvoir est désactivé.  
