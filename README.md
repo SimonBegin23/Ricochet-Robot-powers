@@ -5,11 +5,11 @@ Une version personnellement codée du jeu de table *Ricochet Robots*, avec des p
 ## 🔧 Pouvoirs des robots (optionnels)
 
 - **🔵 Bleu** : peut se **téléporter de 4 cases orthogonalement** une fois par round.  
-- **⚪ Gris** : **passe à travers tous les murs**, sans restriction.  
+- **⚪ Gris** : **passe à travers tous les murs**. Notez que ce pouvoir est **permanent** lors de la partie.  
 - **🟡 Jaune** : peut **traverser un mur** par round.  
 - **🟢 Vert** : peut faire apparaître, **une fois par tour**, un **hologramme** dans n’importe quelle direction orthogonale, tant qu’il n’y a pas d’obstacle entre lui et l’emplacement choisi.  
   L’hologramme disparaît si Vert bouge ou si le pouvoir est désactivé.  
-- **🔴 Rouge** : peut **agripper ou désagripper** tout robot adjacent. Les **pouvoirs actifs du robot rouge s’appliquent également à tous les robots qu’il agrippe**.
+- **🔴 Rouge** : peut **agripper ou désagripper** tout robot adjacent. Les **pouvoirs actifs des robots agrippés s’appliquent également à tous les robots qui sont agrippés**.
 
 ---
 
@@ -32,7 +32,7 @@ Les joueurs réfléchissent simultanément sans toucher aux robots.
 
 ### ⏱️ Tour de jeu
 
-- Dès qu’un joueur pense avoir trouvé la meilleure solution, il **démarre le minuteur**.  
+- Dès qu’un joueur pense avoir trouvé la meilleure solution, il **dit le nombre de mouvement** et **démarre le minuteur**.  
 - Les autres ont **une minute** pour tenter de trouver une meilleure solution.  
 - On vérifie ensuite les propositions : si la meilleure est correcte, le joueur marque le point.
 
@@ -48,9 +48,8 @@ Le joueur ayant cumulé **le plus de points** gagne la partie.
   Maintenez la **touche de direction** souhaitée et **cliquez gauche** sur le robot.
 
 - Pour **activer un pouvoir**, appuyez sur le **bouton correspondant**, puis suivez cette légende :  
-  - **🔵 Bleu, 🟡 Jaune, ⚪ Gris** : bouton → déplacer le robot.  
+  - **🔵 Bleu, 🟡 Jaune** : bouton → déplacer le robot.  
   - **🔴 Rouge** : bouton → cliquez sur un robot adjacent pour l’agripper ou le désagripper.  
-  - **🟢 Vert** : bouton → cliquez sur Vert pour faire apparaître un hologramme.
-
+  - **🟢 Vert** : bouton → cliquez sur Vert pour faire apparaître ou disparaître un hologramme.
 ---
 
